@@ -67,12 +67,21 @@ img {
 }
 
 footer {
-    margin-top: 5%;
+    margin-top: 7%;
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
 }
 
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+footer ul li{
+    margin: 0 15px;
+}
 footer a{
     text-decoration: none;
     color: #EEEEEE;
