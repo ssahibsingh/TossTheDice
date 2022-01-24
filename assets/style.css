@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+*{
+    margin:0;
+    padding: 0;
+}
+
+
+
+body{
+    background-color: #072227 !important;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* .container{
+    width: 70%;
+    margin: auto;
+    text-align: center;
+} */
+
+/* .dice{
+    display: inline-block;
+    text-align: center;
+} */
+
+h1 {
+    margin: 30px !important;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 7em !important;
+    color: #4FBDBA;
+}
+
+@media (min-width: 44px) {  
+    h1 {font-size:1rem !important;} 
+}
+@media (min-width: 144px) {  
+    h1 {font-size:2.5rem !important;} 
+}
+@media (min-width: 244px) {  
+    h1 {font-size:3rem !important;} 
+}
+@media (min-width: 344px) {  
+    h1 {font-size:3rem !important;} 
+}
+@media (min-width: 544px) {  
+    h1 {font-size:4rem !important;} 
+}
+@media (min-width: 768px) {  
+    h1 {font-size:5rem !important;} 
+}
+@media (min-width: 992px) { 
+    h1 {font-size:6rem !important;} 
+}
+@media (min-width: 1200px) {  
+    h1 {font-size:7rem !important;}     
+}
+  
+h3 {
+    font-size: 2rem;
+    color: #4FBDBA;
+    font-family: 'Indie Flower', cursive;
+}
+  
+img {
+    width: 80%;
+    max-width: 300px;
+}
+
+footer {
+    margin-top: 7%;
+    color: #EEEEEE;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+}
+
+footer ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    
+}
+
+footer ul li{
+    margin: 0 15px;
+}
+footer a{
+    text-decoration: none;
+    color: #EEEEEE;
+    font-size: 25px;
+}
+
+footer a:hover{
+    color: #4FBDBA;
+}
