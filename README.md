@@ -11,10 +11,11 @@
     <img width="33%" src="assets/images/readme/player-1.png">
   </span>
   <span >
-    <img width="33%" src="assets/images/readme/toss-again.png">
-  </span>
-  <span >
     <img width="33%" src="assets/images/readme/player-2.png">
   </span>
+  <span >
+    <img width="33%" src="assets/images/readme/toss-again.png">
+  </span>
+  
 </div>
 
