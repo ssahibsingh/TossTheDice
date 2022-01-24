@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oooh+Baby&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -7,7 +9,7 @@
 
 
 body{
-    background-color: #072227 !important;
+    background-color: #D4ECDD !important;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -25,13 +27,13 @@ body{
 h1 {
     margin: 30px !important;
     font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
+    text-shadow: 3px 0 #112031;
     font-size: 7em !important;
-    color: #4FBDBA;
+    color: #112031;
 }
 
 @media (min-width: 44px) {  
-    h1 {font-size:1rem !important;} 
+    h1 {font-size:1.5rem !important;} 
 }
 @media (min-width: 144px) {  
     h1 {font-size:2.5rem !important;} 
@@ -57,7 +59,7 @@ h1 {
   
 h3 {
     font-size: 2rem;
-    color: #4FBDBA;
+    color: #112031;
     font-family: 'Indie Flower', cursive;
 }
   
@@ -66,18 +68,36 @@ img {
     max-width: 300px;
 }
 
+.button{
+    border:none;
+    border-radius: 10px;
+    padding:10px;
+    margin: 30px 0;
+    background-color: #112031;
+    font-size:30px;
+    font-family: 'Oooh Baby', cursive;
+    color: #D4ECDD;
+}
+
+.button:hover{
+    box-shadow: 0px 0px 300px 5px #345B63;
+    transform:scale(1.1);
+    font-weight: 500;
+}
+
 footer {
-    margin-top: 7%;
+    margin-top: 10px;
     color: #EEEEEE;
     text-align: center;
     font-family: 'Indie Flower', cursive;
+    position:relative;
+    right:16px;
 }
 
 footer ul{
     display: flex;
     justify-content: center;
     list-style: none;
-    
 }
 
 footer ul li{
@@ -85,10 +105,11 @@ footer ul li{
 }
 footer a{
     text-decoration: none;
-    color: #EEEEEE;
-    font-size: 25px;
+    color: black;
+    font-size: 30px;
+    
 }
 
 footer a:hover{
-    color: #4FBDBA;
+    color: black;
 }
