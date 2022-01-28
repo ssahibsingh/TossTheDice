@@ -12,14 +12,17 @@ function tossthedice() {
     var playerImg1 = "assets/images/" + "dice" + player1 + ".png";
     var playerImg2 = "assets/images/" + "dice" + player2 + ".png";
 
+    var playerName1 = prompt("Enter Player 1 Name: ");
+    var playerName2 = prompt("Enter Player 2 Name: ");
+
     document.querySelector("#Player1 img").setAttribute("src", playerImg1);
     document.querySelector("#Player2 img").setAttribute("src", playerImg2);
 
     if (player1 > player2) {
-        document.querySelector("h1").innerText = "🏆 Player 1 Wins"
+        document.querySelector("h1").innerText = "🏆 " + playerName1 + " Wins";
     }
     else if (player1 < player2) {
-        document.querySelector("h1").innerText = "Player 2 Wins 🏆"
+        document.querySelector("h1").innerText = playerName2 + " Wins 🏆";
     }
     else if (player1 == player2) {
         document.querySelector("h1").innerText = "Toss Again 🎲"
